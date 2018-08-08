@@ -1,4 +1,4 @@
 import math
-m=int(input(" "))
-print(math.factorial(m))
+n=int(input(" "))
+print(math.factorial(n))
 
