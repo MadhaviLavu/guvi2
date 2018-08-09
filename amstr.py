@@ -1,10 +1,10 @@
-a=int(input())   
-temp=a
+b=int(input())   
+temp=b
 sum=0
-while(a>0):
-    rem=a%10
+while(b>0):
+    rem=b%10
     sum=rem**3+sum
-    a=a//10
+    b=b//10
 if(temp==sum):
     print("Yes")
 else:
