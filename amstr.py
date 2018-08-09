@@ -1,12 +1,14 @@
-n=int(input())   
-temp=n
+a=int(input())   
+temp=a
 sum=0
-while(n>0):
-    rem=n%10
+while(a>0):
+    rem=a%10
     sum=rem**3+sum
-    n=n//10
+    a=a//10
 if(temp==sum):
     print("Yes")
 else:
     print("no")
+
+
 
