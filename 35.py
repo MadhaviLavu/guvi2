@@ -1,2 +1,6 @@
-s=list(input(" "))
-print(len(list(filter(lambda x:x.isnumeric(),s))))
+s=input()
+c=0
+for i in s:
+    if(i.isdigit()):
+        c+=1
+print(c)        
