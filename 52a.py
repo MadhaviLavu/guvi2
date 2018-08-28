@@ -1,4 +1,4 @@
 l=int(input(" "))
-words=['one','two','three','four','five','six','seven','eight','nine','ten']
+words=['One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten']
 print(words[(l)-1])       
        
