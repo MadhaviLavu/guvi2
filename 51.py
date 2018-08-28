@@ -1,2 +1,2 @@
 lt=list(input(" "))
-print(" ".join(int(x) for x in lt))
+print(" ".join(str(x) for x in lt))
