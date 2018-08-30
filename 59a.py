@@ -1,7 +1,7 @@
-mn=input(" ")
-mn=int(mn)
+m=input(" ")
+m=int(m)
 count=0
-while mn>0:
-    mn=mn//10
+while m>0:
+    m=m//10
     count+=1
 print(count)   
