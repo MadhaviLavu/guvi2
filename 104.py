@@ -1,3 +1,3 @@
-m,n=input().split()
-m,n=int(m),int(n)
-print(m**n)
+a,n=input().split()
+a,n=int(a),int(n)
+print(a**n)
